@@ -5,11 +5,11 @@ layout: home
 ---
 # ▶️Power Automate について🤖
 
-## GitHub
-GitHub は、ソフトウェア開発者やチームがコードを管理し、共同作業を行うためのクラウドベースのプラットフォームです。 GitHub は Git バージョン管理システムを基盤としており、コードの履歴管理、ブランチ作成、プルリクエストによるレビュー、Issue やディスカッションによるコミュニケーションなど、開発プロセスを効率化する多くの機能を提供します。 オープンソースプロジェクトから企業の大規模な開発まで幅広く利用されており、CI/CD や GitHub Actions などの自動化機能も充実しています。
+## Power Platform
+Power Platform は、Microsoft が提供する低コード/ノーコードプラットフォームで、ビジネスユーザーから開発者まで幅広く利用できます。Power Platform は Power Apps、Power Automate、Power BI、Power Virtual Agents など複数のツールで構成されており、データ連携、業務自動化、分析、チャットボット構築など、企業のデジタル変革を支援します。既存のシステムとの統合も容易で、Microsoft 365 や Azure などの Microsoft エコシステムと seamlessly 連携でき、ビジネスプロセスの効率化と迅速なアプリケーション開発を実現します。
 
-## GitHub Copilot
-GitHub Copilot は、AI を活用したコード補完ツールで、Visual Studio Code や GitHub などの開発環境で利用できます。 Copilot は自然言語のコメントやコードの一部から、次に書くべきコードを提案したり、関数やアルゴリズムの自動生成を支援します。 開発者の生産性向上や学習支援に役立ち、複雑なロジックや繰り返し作業の効率化を実現します。 Copilot は GitHub 上の公開リポジトリのコードやドキュメントを学習しており、幅広い言語やフレームワークに対応しています。
+## Power Automate
+Power Automate は、Power Platform の一部で、クラウドベースのワークフロー自動化ツールです。Power Automate を使用することで、複数のアプリケーションやサービス間のプロセスを自動化できます。メール送信、ファイル操作、データベース更新、承認フローなど、様々な業務タスクをノーコードで自動化でき、手作業の削減と業務効率の向上を実現します。Microsoft 365、Dynamics 365、Azure、サードパーティサービスなど、1000 を超える事前構築済みコネクタを利用でき、複雑な統合シナリオにも対応しています。
 
 # 🧩演習：機能を試すチャレンジ🧩
 
@@ -19,67 +19,21 @@ GitHub Copilot は、AI を活用したコード補完ツールで、Visual Stud
   </tr>
   <tr>
     <td>
-      <strong>GitHub アカウントの作成手順</strong><br>
-      まだ GitHub アカウントをお持ちでない場合は、以下の手順で作成してください。<br><br>
-      1. <a href="https://github.com/" target="_blank">https://github.com/</a> にアクセスします。<br>
-      2. 画面右上の「Sign up」または「サインアップ」をクリックします。<br>
-      3. メールアドレス、ユーザー名、パスワードを入力し、アカウントを作成します。<br>
-      4. メール認証を行い、アカウント登録を完了します。<br><br>
-      <strong>GitHub Copilot トライアルの開始方法</strong><br>
-      1. GitHub アカウントでログインした状態で、<a href="https://github.com/features/copilot" target="_blank">GitHub Copilot のページ</a>にアクセスします。<br>
-      2. 「Start free trial」または「無料トライアルを開始」をクリックします。<br>
-      3. 必要に応じて支払い情報を入力します（トライアル期間中は請求されません）。<br>
-      4. トライアルの有効化が完了したら、Visual Studio Code などのエディタで GitHub Copilot を利用できます。<br><br>
-      <strong>Visual Studio Code で GitHub Copilot をセットアップする方法</strong><br>
-      1. Visual Studio Code をインストールまたは更新します。<br>
-      2. 拡張機能パネルを開き（Ctrl+Shift+X または Cmd+Shift+X）、「GitHub Copilot」を検索します。<br>
-      3. 「GitHub Copilot」拡張機能をインストールします。<br>
-      4. インストール後、GitHub アカウントでサインインするよう促されます。指示に従ってサインインを完了します。<br>
-      5. セットアップ完了後、コード編集時に Copilot の提案が表示されます。<br><br>
-      ※ 既にアカウントや Copilot トライアルをお持ちの場合は、この手順をスキップしてください。
+      <strong>Power Automate へのサインイン手順</strong><br>
+      共有アカウントを使用して Power Automate にサインインしてください。<br><br>
+      1. <a href="https://make.powerautomate.com/" target="_blank">https://make.powerautomate.com/</a> にアクセスします。<br>
+      2. 「サインイン」をクリックします。<br>
+      3. メールアドレスに <code>Guest&lt;番号&gt;@4gfrxm.onmicrosoft.com</code>（例：Guest1@4gfrxm.onmicrosoft.com）を入力します。<br>
+      4. パスワードに <code>PowerPlatform1491</code> を入力します。<br>
+      5. サインインが完了すると、Power Automate のホーム画面が表示されます。<br><br>
+      ※ ゲストアカウントの番号は講師から指定されます。
     </td>
   </tr>
 </table>
 
 
-# サンプルコード☁️
-❗このコードはこのまま正解ではないです
-
-## **1️⃣**
-以下のクエリをコピーして、クエリウィンドウに使用してください
-または、<a href="https://github.com/joshjones-jp/JP_GitHub_Copilot/blob/main/sampleapp.py" target="_blank">https://github.com/joshjones-jp/JP_GitHub_Copilot/blob/main/sampleapp.py</a>   からダウンロード
 
 
-```python
-import random
-
-secret = random.randint(1, 50)
-attempts = 5
-
-print("数字当てゲーム！")
-print("1から50の間の数字を考えています。")
-print(f"{attempts}回のチャンスがあります。\n")
-
-while attempts > 0
-    guess = input("数字を入力してください: ")
-    if not guess.isdigit(
-        print("有効な数字を入力してください。\n")
-        continue
-
-    guess = int(guess)
-    attempts=attempts-5
-
-    if guess==secret:
-        print(f"正解です！答えは {secret} でした。")
-        break
-    elif guess > secret:  
-        print("小さすぎます！\n")
-    else:
-        print("大きすぎます！\n")
-
-    if attempts==0 and guess!=secret:
-        print(f"チャンスがなくなりました。正解は {secret} でした。")
-```
 
 
 
