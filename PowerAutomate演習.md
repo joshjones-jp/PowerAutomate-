@@ -1,9 +1,9 @@
 ---
-title: 🐈‍⬛GitHub Copilot 演習🤖 
+title: ▶️Power Automate 演習🤖 
 permalink: index.html
 layout: home
 ---
-# 🐈‍⬛GitHubと GitHub Copilot について🤖
+# ▶️Power Automate について🤖
 
 ## GitHub
 GitHub は、ソフトウェア開発者やチームがコードを管理し、共同作業を行うためのクラウドベースのプラットフォームです。 GitHub は Git バージョン管理システムを基盤としており、コードの履歴管理、ブランチ作成、プルリクエストによるレビュー、Issue やディスカッションによるコミュニケーションなど、開発プロセスを効率化する多くの機能を提供します。 オープンソースプロジェクトから企業の大規模な開発まで幅広く利用されており、CI/CD や GitHub Actions などの自動化機能も充実しています。
